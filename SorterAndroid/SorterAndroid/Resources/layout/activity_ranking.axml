@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rnk_layTop">
+        <ImageButton
+            android:src="@drawable/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rnk_btnBack" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rnk_btnBack"
+            android:id="@+id/rnk_layTopWest"
+            android:layout_alignParentRight="true"
+            android:gravity="right">
+            <ImageButton
+                android:src="@drawable/imgSave"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/rnk_btSave" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rnk_list" />
+
+</LinearLayout>

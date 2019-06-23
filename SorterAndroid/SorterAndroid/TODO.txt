@@ -1,0 +1,29 @@
+﻿Implementación del cargar -> MODIFICAR
+	Mantener pulsado para borrar un save
+	Preparación de cargar estado
+		(Se implementará cuando consiga implementar un sistema de guardado de estado)
+
+Revisar como hacer que los botones tengan el mismo tamaño siempre <--------------------- PUTO CLAVE
+
+Implementación del torneo
+
+Implementación del ranking
+	Encontrar directorio donde guardar los rankings
+	Copiar el ránking
+
+Implementación de fin de ejecución
+	Reinicio
+
+Localización
+Iconos
+Orientación de la aplicación
+OnResume
+
+---- Post 1.0
+
+Barra de progreso con número de enfrentamientos
+Añadir x a la lista de entradas, la eliminación de entradas pasa por ahí
+Voto a ninguno
+Ayuda
+Editar rankings
+Convertir a tier lists
